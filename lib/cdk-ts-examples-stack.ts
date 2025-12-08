@@ -1,16 +1,13 @@
-import * as cdk from 'aws-cdk-lib/core';
+import { Stack, StackProps } from 'aws-cdk-lib/core';
 import { Construct } from 'constructs';
-// import * as sqs from 'aws-cdk-lib/aws-sqs';
+import { ApiGatewayLambdaDynamoTsNestedStack } from './apigateway-lambda-dynamo/apigateway-lambda-dynamo-ts';
+import { ApiGatewayLambdaDynamoGoNestedStack } from './apigateway-lambda-dynamo/apigateway-lambda-dynamo-go';
 
-export class CdkTsExamplesStack extends cdk.Stack {
-  constructor(scope: Construct, id: string, props?: cdk.StackProps) {
+export class CdkTsExamplesStack extends Stack {
+  constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
-
-    // example resource
-    // const queue = new sqs.Queue(this, 'CdkTsExamplesQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
+    new ApiGatewayLambdaDynamoTsNestedStack(this, "ApiGatewayLambdaDynamoTS");
+    new ApiGatewayLambdaDynamoGoNestedStack(this, "ApiGatewayLambdaDynamoGO");
   }
 }

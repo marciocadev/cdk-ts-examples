@@ -1,0 +1,38 @@
+{
+  "Artist": "Dream Theater",
+  "Album": "Images and Words",
+  "Tracks": [
+    {
+      "Title": "Pull Me Under",
+      "Lenght": "8:14"
+    },
+    {
+      "Title": "Another Day",
+      "Lenght": "4:23"
+    },
+    {
+      "Title": "Take the Time",
+      "Length": "8:21"
+    },
+    {
+      "Title": "Surrounded",
+      "Lenght": "5:30"
+    },
+    {
+      "Title": "Metropolis—Part I: 'The Miracle and the Sleeper'",
+      "Length": "9:32"
+    },
+    {
+      "Title": "Under a Glass Moon",
+      "Lenght": "7:03"
+    },
+    {
+      "Title": "Wait for Sleep",
+      "Lenght": "2:31"
+    },
+    {
+      "Title": "Learning to Live",
+      "Lenght": "11:30"
+    }
+  ]
+}

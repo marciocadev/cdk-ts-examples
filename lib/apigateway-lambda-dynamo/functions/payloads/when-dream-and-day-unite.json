@@ -1,0 +1,38 @@
+{
+  "Artist": "Dream Theater",
+  "Album": "When Dream and Day Unite",
+  "Tracks": [
+    {
+      "Title": "A Fortune in Lies",
+      "Lenght": "5:12"
+    },
+    {
+      "Title": "Status Seeker",
+      "Lenght": "4:17"
+    },
+    {
+      "Title": "The Ytse Jam",
+      "Length": "5:46"
+    },
+    {
+      "Title": "The Killing Hand",
+      "Lenght": "8:41"
+    },
+    {
+      "Title": "Light Fuse and Get Away",
+      "Length": "7:23"
+    },
+    {
+      "Title": "Afterlife",
+      "Lenght": "5:26"
+    },
+    {
+      "Title": "The Ones Who Help to Set the Sun",
+      "Lenght": "8:05"
+    },
+    {
+      "Title": "Only a Matter of Time",
+      "Lenght": "6:35"
+    }
+  ]
+}

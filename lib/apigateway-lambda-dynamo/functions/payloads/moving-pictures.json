@@ -1,0 +1,34 @@
+{
+  "Artist": "Rush",
+  "Album": "Moving Pictures",
+  "Tracks": [
+    {
+      "Title": "Tom Sawyer",
+      "Length": "4:34"
+    },
+    {
+      "Title": "Red Barchetta",
+      "Length": "6:10"
+    },
+    {
+      "Title": "YYZ",
+      "Length": "4:26"
+    },
+    {
+      "Title": "Limelight",
+      "Length": "4:20"
+    },
+    {
+      "Title": "The Camera Eye",
+      "Length": "11:00"
+    },
+    {
+      "Title": "Witch Hunt",
+      "Length": "4:46"
+    },
+    {
+      "Title": "Vital Signs",
+      "Length": "4:44"
+    }
+  ]
+}
