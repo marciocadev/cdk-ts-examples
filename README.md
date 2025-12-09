@@ -15,3 +15,5 @@ architecture-beta
    db:L -- R:compute
    storage:T -- B:compute
 ```
+
+![AWS Lambda](./Arch_AWS-Lambda_64.svg)
