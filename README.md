@@ -6,6 +6,7 @@ flowchart
     n1@{ icon: "aws:arch-alexa-for-business"}
 ```
 
+```mermaid
 architecture-beta
    group api(aws:arch-amazon-api-gateway)[API Gateway]
    service db(aws:arch-amazon-rds)[Database] in api
@@ -13,3 +14,4 @@ architecture-beta
    service compute(aws:arch-amazon-ec2)[EC2 Instance] in api
    db:L -- R:compute
    storage:T -- B:compute
+```
