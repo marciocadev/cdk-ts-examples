@@ -17,3 +17,8 @@ architecture-beta
 ```
 
 ![AWS Lambda](./Arch_AWS-Lambda_64.svg)
+
+```mermaid
+flowchart TD
+    A[📦![AWS Lambda](./Arch_AWS-Lambda_64.svg) S3 Bucket] --> B[🌀 Lambda]
+```
