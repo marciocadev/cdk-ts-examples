@@ -23,7 +23,7 @@ architecture-beta
 skinparam dpi 150
 
 rectangle "Meu Sistema" {
-  !includeurl ![AWS Lambda](./Arch_AWS-Lambda_64.svg)
+  !includeurl ./Arch_AWS-Lambda_64.svg
 }
 
 @enduml
